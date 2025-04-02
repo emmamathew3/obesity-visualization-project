@@ -1,0 +1,141 @@
+:root {
+    --primary: #183a1d;
+    --background: #fefbe9;
+    --secondary: #f0a04b;
+    --accent: #f6c453;
+    --light-bg: #e1eedd;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+  }
+  
+  header {
+    background-color: var(--light-bg);
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .nav-bar {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  .nav-links a {
+    margin-left: 1rem;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .nav-links a:hover,
+  .nav-links a.active {
+    color: var(--secondary);
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  h1, h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--primary);
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  h2 {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+  }
+  
+  .section {
+    margin-bottom: 2.5rem;
+  }
+  
+  ul {
+    padding-left: 1.5rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .preview {
+    flex: 1 1 200px;
+    background-color: var(--light-bg);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .preview img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .preview p {
+    padding: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+  
+  .viz-section {
+    margin-bottom: 3rem;
+    background-color: var(--light-bg);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  
+  .viz-section img,
+  .viz-section iframe {
+    margin-top: 1rem;
+    border-radius: 10px;
+    width: 100%;
+    max-height: 450px;
+    object-fit: contain;
+  }
+  
+  .viz-section p {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  footer {
+    background-color: var(--light-bg);
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  

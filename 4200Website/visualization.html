@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visualizations | Obesity & Lifestyle Behaviors</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">Obesity Insights</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="visualization.html" class="active">Visualizations</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Data Visualizations</h1>
+
+    <section id="fig1" class="viz-section">
+      <h2>Figure 1: Altair Boxplot – Weight by Obesity Level</h2>
+      <iframe src="figures/altair_boxplot_weight.html" width="100%" height="400" style="border:none;"></iframe>
+      <p><strong>Takeaway:</strong> [Placeholder for the main insight. For example: Obese individuals tend to have higher weight distribution compared to other groups.]</p>
+      <p><strong>Interaction:</strong> Hover to view individual weight values by obesity category. This makes it easier to compare spread and outliers across groups.</p>
+    </section>
+
+    <section id="fig2" class="viz-section">
+      <h2>Figure 2: D3 Chart – Food Between Meals vs Obesity</h2>
+      <iframe src="figures/d3_chart_food.html" width="100%" height="400" style="border:none;"></iframe>
+      <p><strong>Takeaway:</strong> [Placeholder insight. E.g.: Frequent snacking between meals appears more common in higher obesity categories.]</p>
+      <p><strong>Interaction:</strong> Users can hover over bars for category-level counts. D3’s dynamic rendering adjusts with browser size for better clarity.</p>
+    </section>
+
+    <section id="fig3" class="viz-section">
+      <h2>Figure 3: Altair Scatter Plot – Height vs Weight</h2>
+      <iframe src="figures/altair_scatterplot.html" width="100%" height="400" style="border:none;"></iframe>
+      <p><strong>Takeaway:</strong> [Placeholder. E.g.: Higher weight relative to height is more common in obese classifications, confirming BMI-like trends visually.]</p>
+      <p><strong>Interaction:</strong> Hover to inspect individual data points. Obesity level is color-coded for immediate visual grouping.</p>
+    </section>
+
+    <section id="fig4" class="viz-section">
+      <h2>Figure 4: Correlation Heatmap</h2>
+      <img src="figures/correlation_heatmap.png" alt="Correlation Heatmap">
+      <p><strong>Takeaway:</strong> [Placeholder. E.g.: High-calorie food consumption and lack of physical activity are strongly correlated with obesity level.]</p>
+      <p><strong>Interaction:</strong> Static chart, but color gradient draws focus to strongest relationships. Hover functionality could be added in the future.</p>
+    </section>
+
+    <section id="fig5" class="viz-section">
+      <h2>Figure 5: Boxplot – Gender and Obesity Level</h2>
+      <img src="figures/gender_obesity_boxplot.png" alt="Boxplot by Gender">
+      <p><strong>Takeaway:</strong> [Placeholder. E.g.: Male and female participants show slightly different obesity level distributions, suggesting potential gender-based factors.]</p>
+      <p><strong>Interaction:</strong> Static, but design emphasizes gender comparison. Consider adding filtering by gender as future enhancement.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Hana Ahmed, Emma Mathew, & Vrinda Rana</p>
+    </div>
+  </footer>
+</body>
+</html>
+
